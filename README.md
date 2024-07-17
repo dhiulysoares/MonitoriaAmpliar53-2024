@@ -20,7 +20,7 @@ Repositório para materiais e códigos produzidos durante a monitoria de algorit
 ---
 
 <h3>Atividades</h3>
-[Link das atividades disponíveis no Ampliar](https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0)
+Link das atividades disponíveis no Ampliar - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
 
 <h3>Vídeos</h3>
-[Pílula 1 - Apresentação](https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0)
+Pílula 1 - Apresentação - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
