@@ -2,7 +2,7 @@
 Repositório para materiais e códigos produzidos durante a monitoria de algoritmos e lógica de programação do módulo 53/2024.
 
 ---
-Cronograma dos encontros:
+<h2>Cronograma dos encontros:</h2>
 
 | Data       | Evento                                         |
 |:----------:|:----------------------------------------------:|
@@ -19,5 +19,8 @@ Cronograma dos encontros:
 | 16/09/2024 | Semana de Provas - Não há monitoria            |
 ---
 
-[Link das atividades disponíveis no Ampliar](https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0)
-[Pílula 1 - Apresentação](https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0)
+<h3>Atividades</h3>
+Link das atividades disponíveis no Ampliar - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
+
+<h3>Vídeos</h3>
+Pílula 1 - Apresentação - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
