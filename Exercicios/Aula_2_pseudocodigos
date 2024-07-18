@@ -3,20 +3,56 @@ e o percentual de desconto do INSS de um professor.
 Calcule e, depois, apresente o salário líquido e o salário bruto.
 
 Objetivo: calcular o salario bruto e liquido de um professor
+
 Entrada: valor da hora-aula, numero de aulas dadas, percentual de desconto INSS
-Processamento: calculo do salario 
+
+Processamento: calculo do salario. 
+salario bruto = valor da hora aula * numero de aulas dadas
+salario liquido = salario bruto - percentual de desconto do inss * salario bruto
+
 Saída: salario bruto e salario liquido
 
-CalculaSalario
 
-Var 
-    valorAula, percentualInss, salarioBruto, salarioLiquido: real
+Algoritmo CalculaSalario
+Var
+    salarioBruto, salarioLiquido, valorAula, percentualDesconto: real
     numeroAulas: inteiro
 Inicio
-    Escreva("Digite o valorAula, percentualInss e o numeroAulas")
-    Leia(valorAula, percentualInss, numeroAulas)
-    salarioBruto = numeroAulas * valorAula
-    salarioLiquido = salarioBruto - percentualInss * salarioBruto
-    Escreva("Salario bruto é:", salarioBruto)
-    Escreva("Salario liquido é:", salarioLiquido)
+    Escreva("Digite o valor da hora-aula")
+    Leia(valorAula)
+    Escreva("Digite o numero de aulas dadas")
+    Leia(numeroAulas)
+    Escreva("Digite o percentual de desconto do INSS")
+    Leia(percentualDesconto)
+
+    salarioBruto <- valorAula * numeroAulas
+    salarioLiquido <- salarioBruto - (percentualDesconto/100 * salarioBruto)
+
+    Escreva("O salario bruto é:", salarioBruto)
+    Escreva("O salario liquido é:", salarioLiquido)
 Fim
+
+-----------------------------------------------------
+
+Algoritmo CalculaSalario
+Var
+    valorAula, percentualDesconto: real
+    numeroAulas: inteiro
+Inicio
+    Escreva("Digite o valor da hora-aula")
+    Leia(valorAula)
+    Escreva("Digite o numero de aulas dadas")
+    Leia(numeroAulas)
+    Escreva("Digite o percentual de desconto do INSS")
+    Leia(percentualDesconto) 
+
+    Escreva("O salario bruto é:", valorAula * numeroAulas)
+    Escreva("O salario liquido é:", valorAula * numeroAulas - (percentualDesconto/100 * valorAula * numeroAulas))
+Fim
+
+-------
+
+Como executar o código no terminal?
+
+python3 <path><nome_do_arquivo.py>
+

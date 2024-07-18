@@ -9,13 +9,12 @@ Processamento: calculo do salario
 Saída: salario bruto e salario liquido
 """
 
-#CalculaSalario
+valorAula = float(input("Digite o valor da aula"))
+numeroAulas = int(input("Digite a quantidade de aulas dadas")) # 14 <> "14"
+percentualInss = float(input("Digite o percentual de desconto do INSS"))
 
-valorAula = float(input("Digite o valorAula"))
-percentualInss = float(input("Digite o percentualInss"))
-numeroAulas = int(input("Digite o numero de aulas"))
-
-salarioBruto = numeroAulas * valorAula
+salarioBruto = valorAula * numeroAulas
 salarioLiquido = salarioBruto - (percentualInss/100 * salarioBruto)
 
-print(salarioBruto, salarioLiquido)
+print("O salario bruto é:", salarioBruto)
+print("O salario liquido é:", salarioLiquido)
