@@ -1,4 +1,4 @@
-1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+1. Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
 que C.
 
 Objetivo: ler três valores e imprimir se a soma dos dois primeiros é menor que o terceiro
