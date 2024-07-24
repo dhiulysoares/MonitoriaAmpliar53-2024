@@ -1,0 +1,23 @@
+1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+que C.
+
+Objetivo: ler três valores e imprimir se a soma dos dois primeiros é menor que o terceiro
+
+Entrada: os três valores
+
+Processamento: soma de A e B, comparar soma com C 
+
+Saída: resposta da comparação (se a soma é maior ou menor que C)
+
+Algoritmo ComparaSoma
+
+Var 
+    A, B, C, soma: real
+Inicio
+    Escreva("Digite três numeros: ")
+    Leia(A, B, C)
+    soma <- A + B
+    Se soma < C faca 
+        Escreva("A soma de A e B é menor que C")
+    FimSe
+Fim
