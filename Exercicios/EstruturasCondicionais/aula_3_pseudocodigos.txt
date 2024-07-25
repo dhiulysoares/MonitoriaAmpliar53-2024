@@ -17,7 +17,7 @@ Inicio
     Escreva("Digite três numeros: ")
     Leia(A, B, C)
     soma <- A + B
-    Se soma < C faca 
+    Se soma < C entao 
         Escreva("A soma de A e B é menor que C")
     FimSe
 Fim
