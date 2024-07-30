@@ -1,10 +1,10 @@
 1 - Construir um algoritmo que calcule a média aritmética de vários valores inteiros positivos, lidos externamente. 
 O final da leitura acontecerá quando for lido um valor negativo.
 
-Escrever um algoritmo que leia um número de valores, calcule a média aritmética dos valores lidos, 
+2 - Escrever um algoritmo que leia o número de valores que serão digitados, calcule a média aritmética dos valores lidos, 
 a quantidade de valores positivos, a quantidade de valores negativos. Mostre os resultados. 
 
-Escrever um algoritmo que lê 10 valores, um de cada vez, e conta quantos deles estão no intervalo [10,20] 
+3 - Escrever um algoritmo que lê 10 valores, um de cada vez, e conta quantos deles estão no intervalo [10,20] 
 e quantos deles estão fora do intervalo, escrevendo estas informações. 
 
 Faça um algoritmo estruturado que leia uma quantidade não determinada de números positivos.
@@ -29,8 +29,85 @@ Var
 Inicio
     Escreva("Digite um numero positivo. Digite um numero negativo caso queira parar:" )
     Leia(numero)
-
+    cont <- 0
+    soma <- 0
 
     Enquanto numero > 0 faca
         cont = cont + 1
+        soma = soma + numero
+        Escreva("Digite um numero positivo. Digite um numero negativo caso queira parar:" )
+        Leia(numero)
     FimEnquanto
+
+    media = soma / cont
+    Escreva("A media é:", media)
+Fim
+
+
+
+Ex-2
+Objetivo: ler a quantidade de numeros que serão digitados. calcular a media e a quantidade de positivos e negativos.
+Entrada:  quantidade de numeros que serão digitados, e os numeros
+Processamento: calcular a media e a quantidade de positivos e de negativos
+Saída: exibir esses resultados
+
+Algoritmo2
+Var
+    numero, cont, qtdNegativos, qtdPositivos, soma, qtd: inteiro
+    media: real
+Inicio
+    Escreva("Quantos valores vocês deseja calcular a media? ")
+    Leia(qtd)
+    Enquanto qtd <= 0 faca
+        Escreva("Quantidade inválida. digite novamente")
+        Leia(qtd)
+    FimEnquanto
+    
+
+    qtdPositivos <- 0
+    qtdNegativos <- 0
+    soma <- 0
+    cont <- 0
+
+    Repita
+        Escreva("Digite um numero:")
+        Leia(numero)
+        Se numero > 0 entao 
+            qtdPositivos <- qtdPositivos + 1
+        Senao
+            qtdNegativos <- qtdNegativos + 1
+        FimSe
+        soma <- soma + numero
+        cont <- cont + 1
+    Ate_que cont == qtd
+
+    media = soma / qtd
+    Escreva("Media", media, "qtdNegativos", qtdNegativos, "qtdPositivos", qtdPositivos)
+Fim
+
+
+Ex3 - 
+Objetivo: receber 10 numeros e identificar quantos estão entre [10,20] e quantos estão fora.
+Entrada: 10 numeros
+Processamento: contar quantos estão dentro do intervalo e contar quantos estão fora do intervalo
+Saída: exibir o resultado da contagem
+
+Algoritmo3
+Var
+    numero, dentroIntervalo, foraIntervalo, cont: inteiro
+Inicio
+
+    Para cont de 0 ate 10 passo 1 faca
+        Escreva("Digite um numero")
+        Leia(numero)
+        Se numero > 10 e numero < 20 entao
+            dentroIntervalo = dentroIntervalo + 1
+        Senao
+            foraIntervalo = foraIntervalo + 1
+        FimSe
+    FimPara
+
+    Escreva("Quantidade de numeros dentro do intervalo [10, 20]: ", dentroIntervalo)
+    Escreva("Quantidade de numeros fora do intervalo [10, 20]: ", foraIntervalo)
+
+Fim
