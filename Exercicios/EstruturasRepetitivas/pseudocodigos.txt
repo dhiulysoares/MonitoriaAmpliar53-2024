@@ -1,4 +1,4 @@
-Construir um algoritmo que calcule a média aritmética de vários valores inteiros positivos, lidos externamente. 
+1 - Construir um algoritmo que calcule a média aritmética de vários valores inteiros positivos, lidos externamente. 
 O final da leitura acontecerá quando for lido um valor negativo.
 
 Escrever um algoritmo que leia um número de valores, calcule a média aritmética dos valores lidos, 
@@ -14,76 +14,23 @@ números lidos. O número que encerrará a leitura será zero.
 Escreva um algoritmo que leia uma sequência de números do usuário e realize a
 soma desses números. Encerre a execução quando um número negativo for digitado.
 
+
+Ex-1
+
+Objetivo: calcular media de x numeros. E o usuario decide quando finaliza a execução digitando um valor negativo.
+Entrada: varios numeros positivos
+Processamento: somar esses numeros e dividir pela quantidade deles.
+Saída: escrever a média dos numeros
+
 Algoritmo1
-Var 
-    media, numero, contador, soma: inteiros
+Var
+    numero, soma, cont: inteiro
+    media: real 
 Inicio
-
-    Escreva("Digite um numero: ")
+    Escreva("Digite um numero positivo. Digite um numero negativo caso queira parar:" )
     Leia(numero)
-    contador <- 0
-    Enquanto numero > 0:
-        soma = soma + numero
-        contador = contador + 1
-        Escreva("Digite um numero: ")
-        Leia(numero)
+
+
+    Enquanto numero > 0 faca
+        cont = cont + 1
     FimEnquanto
-
-    media = soma / contador
-    Escreva("A media é:", media)
-
-Fim
-
-Algoritmo2
-Var 
-    media, qtd, contador, qtdPositivos, qtdNegativos, numero: inteiros
-Inicio
-
-    Escreva("Quantos valores vocês deseja calcular a media? ")
-    Leia(qtd)
-    Enquanto qtd < 0:
-        Escreva("Quantidade inválida, digite novamente:")
-        Leia(qtd)
-    FimEnquanto
-
-    contador <- 0
-    qtdNegativos <- 0
-    qtdPositivos <- 0
-    Enquanto contador =! qtd:
-        Escreva("Digite um número: ")
-        Leia(numero)
-        Se numero > 0:
-            qtdPositivos = qtdPositivos + 1
-        Senão:
-            qtdNegativos = qtdNegativos + 1
-        FimSe
-        soma = soma + numero
-        contador = contador + 1
-    FimEnquanto
-
-    media <- soma / qtd
-
-    Escreva("Media", media, "qtdNegativos", qtdNegativos, "qtdPositivos", qtdPositivos)
-Fim
-
-
-Algoritmo3
-Var     
-    numero, dentroIntervalo, foraIntervalo, contador: inteiros
-
-Inicio
-    Para contador de 0 ate 10 passo 1
-    faca
-        Escreva("Digite um numero: ")
-        Leia(numero)
-        Se numero > 10 e numero < 20:
-            dentroIntervalo = dentroIntervalo + 1
-        Senão:
-            foraIntervalo = foraIntervalo + 1
-        FimSe
-    FimPara
-
-    Escreva("Quantidade de numeros dentro do intervalo [10, 20]: ", dentroIntervalo)
-    Escreva("Quantidade de numeros fora do intervalo [10, 20]: ", foraIntervalo)
-
-Fim
