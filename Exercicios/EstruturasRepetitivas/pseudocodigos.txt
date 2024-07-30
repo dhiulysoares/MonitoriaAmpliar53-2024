@@ -1,0 +1,36 @@
+1 - Construir um algoritmo que calcule a média aritmética de vários valores inteiros positivos, lidos externamente. 
+O final da leitura acontecerá quando for lido um valor negativo.
+
+Escrever um algoritmo que leia um número de valores, calcule a média aritmética dos valores lidos, 
+a quantidade de valores positivos, a quantidade de valores negativos. Mostre os resultados. 
+
+Escrever um algoritmo que lê 10 valores, um de cada vez, e conta quantos deles estão no intervalo [10,20] 
+e quantos deles estão fora do intervalo, escrevendo estas informações. 
+
+Faça um algoritmo estruturado que leia uma quantidade não determinada de números positivos.
+Calcule a quantidade de números pares e ímpares, a média de valores pares e a média geral dos
+números lidos. O número que encerrará a leitura será zero.
+
+Escreva um algoritmo que leia uma sequência de números do usuário e realize a
+soma desses números. Encerre a execução quando um número negativo for digitado.
+
+
+Ex-1
+
+Objetivo: calcular media de x numeros. E o usuario decide quando finaliza a execução digitando um valor negativo.
+Entrada: varios numeros positivos
+Processamento: somar esses numeros e dividir pela quantidade deles.
+Saída: escrever a média dos numeros
+
+Algoritmo1
+Var
+    numero, soma, cont: inteiro
+    media: real 
+Inicio
+    Escreva("Digite um numero positivo. Digite um numero negativo caso queira parar:" )
+    Leia(numero)
+
+
+    Enquanto numero > 0 faca
+        cont = cont + 1
+    FimEnquanto

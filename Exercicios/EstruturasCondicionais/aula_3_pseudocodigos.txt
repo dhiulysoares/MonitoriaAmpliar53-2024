@@ -1,3 +1,5 @@
+Dia 23/07
+
 1. Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
 que C.
 
@@ -21,3 +23,7 @@ Inicio
         Escreva("A soma de A e B é menor que C")
     FimSe
 Fim
+
+
+Dia 25/07
+

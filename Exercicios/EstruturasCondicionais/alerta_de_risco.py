@@ -22,3 +22,6 @@ if nivel_de_alerta > 9:
     print("GRAVE!")
 else:
     print("Seguro.")
+
+
+print("GRAVE!") if nivel_de_alerta > 9 else print("Seguro.") #operador ternario
