@@ -7,12 +7,6 @@ a quantidade de valores positivos, a quantidade de valores negativos. Mostre os 
 3 - Escrever um algoritmo que lê 10 valores, um de cada vez, e conta quantos deles estão no intervalo [10,20] 
 e quantos deles estão fora do intervalo, escrevendo estas informações. 
 
-Faça um algoritmo estruturado que leia uma quantidade não determinada de números positivos.
-Calcule a quantidade de números pares e ímpares, a média de valores pares e a média geral dos
-números lidos. O número que encerrará a leitura será zero.
-
-Escreva um algoritmo que leia uma sequência de números do usuário e realize a
-soma desses números. Encerre a execução quando um número negativo for digitado.
 
 
 Ex-1
