@@ -1,0 +1,25 @@
+1. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+
+    A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+    A mensagem "Reprovado", se a média for menor do que sete;
+    A mensagem "Aprovado com Distinção", se a média for igual a dez. 
+
+2. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
+3. Faça um Programa que leia três números e mostre-os em ordem decrescente. 
+4. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
+
+    Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+    salários até R$ 280,00 (incluindo) : aumento de 20%
+    salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+    salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+    salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+    o salário antes do reajuste;
+    o percentual de aumento aplicado;
+    o valor do aumento;
+    o novo salário, após o aumento. 
+
+5. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+
+    par ou ímpar;
+    positivo ou negativo;
+    inteiro ou decimal. 
