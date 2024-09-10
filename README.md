@@ -21,6 +21,11 @@ Repositório para materiais e códigos produzidos durante a monitoria de algorit
 
 <h3>Atividades</h3>
 Link das atividades disponíveis no Ampliar - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
+Avaliação diagnóstica - https://forms.gle/x4wEEdRPtE4WuCxg9
+Estruturas condicionais - https://forms.gle/v5qbsu58UJ6544we6
+Estruturas de repetição - https://forms.gle/UNYqrooz2S9Gvzeq7
 
 <h3>Vídeos</h3>
-Pílula 1 - Apresentação - https://sites.google.com/view/programa-ampliar/2024/tecnologias-532024/tecno-2024-53-algoritmo/2024-53-algoritmo-lista?authuser=0
+Pílula 1 - Apresentação - https://youtu.be/GQBlg_CMavg?si=F-sfX1mdpNH_Scq4
+Pílula 2 - Estruturas condicionais - https://youtu.be/klGOrDuj49U?si=Eg5E-BlHFFXaNopm
+Pílula 3 - Estruturas de repetição - https://youtu.be/5PrKika_nqk?si=1_ZTrTSSTh7mMKgV
